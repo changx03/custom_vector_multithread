@@ -51,7 +51,6 @@ template <class T,int N>
 class vector
 {
 public:
-    typedef T* Iterator;
     vector(size_t s );
     void push_back( const T& t );
     size_t size();
